@@ -1,0 +1,220 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar-brand {
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.nav-item {
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+
+.contact-me {
+    border-radius: 30px;
+    background-color: #29BF12;
+    color: white;
+}
+
+.contact-me:hover {
+    background-color: #71D562;
+    color: white;
+}
+
+.main {
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.main .profile-content {
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.profile-content.show {
+    opacity: 1;
+}
+
+.main h1 {
+    color: #29BF12;
+    font-size: 35px;
+}
+
+.main .contact-me {
+    font-size: 12px;
+    width: 100px;
+}
+
+.main p.text-skill {
+    font-size: 15px;
+}
+
+.profile-img {
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+    width: 70%;
+    position: absolute;
+    right: -100px;
+    top: 60px;
+}
+
+.profile-img.show {
+    opacity: 1;
+}
+
+
+
+section.about-me,
+section.certificates {
+    background-color: #F6F6F6;
+}
+
+section.about-me h2,
+section.my-skills h2,
+section.portfolio h2,
+section.certificates h2,
+section.contact h2 {
+    color: #29BF12;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.box-certificates {
+    opacity: 0;
+    transition: opacity .25s ease-in-out;
+}
+
+.box-certificates.show {
+    opacity: 1;
+}
+
+.box-skill {
+    opacity: 0;
+}
+
+.box-skill.show {
+    border-bottom: 6px solid #29BF12;
+    height: 250px;
+    transition: all .2s ease-in-out;
+    opacity: 1;
+}
+
+.box-portfolio.show:hover,
+.box-contact.show:hover {
+    transform: scale(1.1);
+}
+
+
+.box-contact {
+    opacity: 0;
+    margin-bottom: 100px;
+}
+
+.box-contact.show {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+}
+
+.box-skill:hover {
+    -webkit-transform: translateY(-6px);
+    border-bottom: 10px solid #29BF12;
+}
+
+section.about-me h2::after,
+section.my-skills h2::after,
+section.portfolio h2::after,
+section.certificates h2::after,
+section.contact h2::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #29BF12;
+    width: 20%;
+    padding-top: 10px;
+}
+
+
+section.portfolio .box-portfolio {
+    opacity: 0;
+    height: 100%;
+}
+
+.box-portfolio h4 {
+    font-size: 20px;
+}
+
+section.portfolio .box-portfolio.show {
+    width: 80%;
+    border-bottom: 10px solid #29BF12;
+    opacity: 1;
+    transition: .3s ease-in-out;
+}
+
+
+
+@media (min-width: 992px) {
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #29BF12;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .main {
+        margin-top: 120px;
+        height: 440px;
+    }
+
+    .profile-img {
+        width: 55%;
+        position: absolute;
+        right: -100px;
+        top: 0;
+    }
+
+
+
+    .main p {
+        font-size: 25px;
+        color: #545454;
+    }
+
+    .main h1 {
+        color: #29BF12;
+        font-size: 60px;
+    }
+
+    .main .contact-me {
+        font-size: 15px;
+        width: 150px;
+    }
+
+    .main p.text-skill {
+        font-size: 30px;
+    }
+
+    section.about-me {
+        margin-top: 40px;
+    }
+
+    section.about-me h2,
+    section.my-skills h2,
+    section.portfolio h2,
+    section.certificates h2,
+    section.contact h2 {
+        font-size: 30px;
+    }
+}
