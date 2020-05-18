@@ -160,6 +160,15 @@ section.portfolio .box-portfolio.show {
     transition: .3s ease-in-out;
 }
 
+.box-skill h4 {
+    font-size: 15px;
+}
+
+footer {
+    height: 70px;
+    line-height: 70px;
+}
+
 
 
 @media (min-width: 992px) {
@@ -216,5 +225,9 @@ section.portfolio .box-portfolio.show {
     section.certificates h2,
     section.contact h2 {
         font-size: 30px;
+    }
+
+    .box-skill h4 {
+        font-size: 24px;
     }
 }
