@@ -138,6 +138,7 @@ const contentPortfolio = [{
                   <li>MYSQL</li>
                 </ul>
               </li>
+              
    `
   },
   {
@@ -205,7 +206,69 @@ const contentPortfolio = [{
                   <li>MVVM Design Pattern </li>
                   <li>XML</li>
                 </ul>
-              </li>`
+              </li>
+               <a href="https://github.com/vikoms/Moflix" target="_black"
+                class="btn btn-primary">Lihat di Github</a>`
+  },
+  {
+    content_left: `<iframe src="https://www.youtube.com/embed/6jsslRKt_rI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+    content_right: `<h2 class="text-center">Laraquotes</h2>
+              <li class="title">
+                Apa itu Laraquotes?
+              </li>
+              <p class="value-1">Laraquotes adalah sebuah website untuk saling berbagi quote </p>
+              <li class="title">
+                Fitur
+                <ul class="list">
+                  <li>CRUD (create,update,delete) Quote</li>
+                  <li>Like Quote</li>
+                  <li>Comment Quote</li>
+                  <li>Like Comment</li>
+                  <li>Notifikasi</li>
+                  <li>Filter Quote (per kategori)</li>
+                </ul>
+              </li>
+
+              <li class="title">
+                Dibuat Menggunakan :
+                <ul class="list">
+                  <li>Laravel 6.0</li>
+                  <li>MYSQL Database</li>
+                  <li>Bootstrap 4.0</li>
+                </ul>
+              </li>
+              <a href="https://github.com/vikoms/Laravel-Kutipan" target="_black"
+                class="btn btn-primary">Lihat di Github</a>`
+  },
+  {
+    content_left: `<iframe src="https://www.youtube.com/embed/p7N6_sqFsN4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+    content_right: `<h2 class="text-center">Kotlin Chat App</h2>
+              <li class="title">
+                Apa itu Kotlin Chat App?
+              </li>
+              <p class="value-1">Kotlin Chat App adalah sebuah aplikasi chatting secara realtime </p>
+              <li class="title">
+                Fitur
+                <ul class="list">
+                  <li>Chat antar user</li>
+                  <li>Search User</li>
+                  <li>Menampilkan tanda user online atau offline</li>
+                  <li>Notifikasi setiap ada pesan baru yang masuk</li>
+                </ul>
+              </li>
+
+              <li class="title">
+                Dibuat Menggunakan :
+                <ul class="list">
+                  <li>Kotlin</li>
+                  <li>Firebase Realtime Database</li>
+                  <li>Firebase Cloud Messaging</li>
+                  <li>Firebase Authentication</li>
+                  <li>Push Notification</li>
+                </ul>
+              </li>
+              <a href="https://github.com/vikoms/Kotlin-Chat-App" target="_black"
+                class="btn btn-primary">Lihat di Github</a>`
   }
 
 ]
