@@ -18,13 +18,15 @@
 }
 
 
-.contact-me {
+.contact-me,
+.btn-hire-me {
     border-radius: 30px;
     background-color: #29BF12;
     color: white;
 }
 
-.contact-me:hover {
+.contact-me:hover,
+.btn-hire-me:hover {
     background-color: #71D562;
     color: white;
 }
@@ -51,7 +53,9 @@
     font-size: 35px;
 }
 
-.main .contact-me {
+.main .contact-me,
+.btn-hire-me,
+.btn-my-resume {
     font-size: 12px;
     width: 100px;
 }
@@ -220,6 +224,16 @@ iframe {
 
 }
 
+.btn-my-resume {
+    border-radius: 30px;
+    border-color: #29BF12;
+}
+
+.btn-my-resume:hover {
+    background-color: #29BF12;
+    color: white;
+}
+
 
 
 
@@ -258,7 +272,9 @@ iframe {
         font-size: 60px;
     }
 
-    .main .contact-me {
+    .main .contact-me,
+    .btn-hire-me,
+    .btn-my-resume {
         font-size: 15px;
         width: 150px;
     }
