@@ -19,17 +19,20 @@
 
 
 .contact-me,
-.btn-hire-me {
+.btn-hire-me,
+.btn-my-cv {
     border-radius: 30px;
     background-color: #29BF12;
     color: white;
 }
 
 .contact-me:hover,
-.btn-hire-me:hover {
+.btn-hire-me:hover,
+.btn-my-cv:hover {
     background-color: #71D562;
     color: white;
 }
+
 
 .main {
     background-color: white;
@@ -55,7 +58,7 @@
 
 .main .contact-me,
 .btn-hire-me,
-.btn-my-resume {
+.btn-my-cv {
     font-size: 12px;
     width: 100px;
 }
@@ -77,13 +80,6 @@
     opacity: 1;
 }
 
-
-
-/* section.about-me,
-section.certificates {
-    background-color: #F6F6F6;
-} */
-
 section.about-me h2,
 section.my-skills h2,
 section.portfolio h2,
@@ -93,6 +89,13 @@ section.contact h2 {
     font-weight: bold;
     font-size: 20px;
 }
+
+/* 
+.about-me img {
+    -webkit-box-shadow: 9px 15px 12px 48px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 9px 15px 12px 48px rgba(0, 0, 0, 0.13);
+    box-shadow: 9px 15px 12px 48px rgba(0, 0, 0, 0.13);
+} */
 
 .box-certificates {
     opacity: 0;
@@ -153,11 +156,6 @@ section.portfolio .box-portfolio {
     height: 100%;
 }
 
-/* 
-.box-portfolio h4 {
-    font-size: 20px;
-} */
-
 section.portfolio .box-portfolio.show {
     opacity: 1;
     transition: .3s ease-in-out;
@@ -191,6 +189,7 @@ footer p {
     transition: opacity .3s;
 }
 
+
 .figure-img:hover a {
     opacity: 1;
 }
@@ -222,16 +221,6 @@ iframe {
 .contact img {
     width: 500px;
 
-}
-
-.btn-my-resume {
-    border-radius: 30px;
-    border-color: #29BF12;
-}
-
-.btn-my-resume:hover {
-    background-color: #29BF12;
-    color: white;
 }
 
 
@@ -274,7 +263,7 @@ iframe {
 
     .main .contact-me,
     .btn-hire-me,
-    .btn-my-resume {
+    .btn-my-cv {
         font-size: 15px;
         width: 150px;
     }
@@ -286,6 +275,7 @@ iframe {
     section.about-me {
         margin-top: 40px;
     }
+
 
     section.about-me h2,
     section.my-skills h2,
