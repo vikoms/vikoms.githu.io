@@ -25,6 +25,13 @@ $(window).scroll(function () {
       }, 300 * (index + 1))
     })
   }
+  if (wScroll > $('.about-me').offset().top - 150) {
+
+    $('.img-about-me').addClass('show')
+    setTimeout(function () {
+      $('.text-about-me').addClass('show')
+    }, 300)
+  }
   if (wScroll > $('.my-skills').offset().top - 300) {
 
     $('.box-skill').each(function (index) {
